@@ -1,0 +1,43 @@
+
+var ftGUID_7893667="58913D73FE223C";
+var ftConfID_7893667="0";
+var ftParams_7893667="ftOBA=1&ft_domain=haberedavet.com&ft_ifb=1&ft_agentEnv=0&ft_referrer=https://haberedavet.com/classrooms.html&us_privacy=${US_PRIVACY}&site_url=https://haberedavet.com/classrooms.html&pub_id=1&sup_platform=1&cachebuster=999181.2559548079";
+var ftKeyword_7893667="";
+var ftCustom_7893667="";
+var ftSection_7893667="";
+var ftSegment_7893667="";
+var ftSegmentList_7893667=[];
+var ftRuleMatch_7893667="0";
+var ftTimestamp_7893667="1708130826";
+var ftGeoC2_7893667="us";
+var ftGeoState_7893667="ma";
+var ftGeoCity_7893667="shrewsbury";
+var ftISP_7893667="shrewsbury electric and cable operations";
+var ftSpeed_7893667="cable";
+var ftConnType_7893667="wifi";
+var ftDMA_7893667="506";
+var ftLong_7893667="-71.72";
+var ftLat_7893667="42.29";
+var ftPostal_7893667="01545";
+var ftTimeZone_7893667="-500";
+var ftMobileCarrier_7893667="";
+var ftImp7893667 = {};
+ftImp7893667.privacy = "x";
+ftImp7893667.guidAge = "0";
+ftImp7893667.impID = "B97A3BE3-A121-1A2B-046B-7B756AA531B4";
+ftImp7893667.duid = "FT:58913D73FE223C";
+
+ftImp7893667.ft_tpplid = "";
+ftImp7893667.ft_c = {};
+ftImp7893667.gdpr = "";
+ftImp7893667.gdpr_consent = "";
+ftImp7893667.gdpr_pd = "";
+ftImp7893667.oob_consent = "";
+ftImp7893667.gdprStoredConsent = "";
+ftImp7893667.us_privacy = "!!US_PRIVACY!";
+ftImp7893667.gpc = "0";
+
+ftImp7893667.jsAppend = "1";
+var ftCreativeId_7893667 = "4251817";
+(function(){var tag=document.getElementById("ft_servedby_7893667")||function(s){return s[s.length-1]}(document.getElementsByTagName("script")),js=document.createElement("script");js.src="https://ajs-assets.ftstatic.com/ftUtils.js";js.id="ftscript_m7893667";js.setAttribute("name","ftscript_m7893667");tag.parentNode.insertBefore(js,tag)})();window.fTChecker=window.fTChecker||function(id){if(!id)return false;id=""+id;if(window.hasOwnProperty("ftUtils")){window["ft"+id]=Object.assign({},window.ftUtils.common);window["ft"+id].getBannerConfig(id)}else(function(id){window.setTimeout(function(){window.fTChecker(id)},50)})(id)};window.fTChecker("7893667");
+
