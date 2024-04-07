@@ -1,0 +1,50 @@
+{
+    "fireboy": {
+        "constants": {
+            "imgSrc": "./res/img/fireboy_sprite.png",
+            "element": "fire",
+            "keys": {
+                "up": "ArrowUp",
+                "left": "ArrowLeft",
+                "right": "ArrowRight"
+            },
+            "legsImgSrc": "./res/img/fireboy_legs_sprite.png"
+        },
+        "1": {
+            "position": {
+                "x": 36,
+                "y": 910
+            }
+        },
+        "2": {
+            "position": {
+                "x": 36,
+                "y": 912
+            }
+        }
+    },
+    "watergirl": {
+        "constants": {
+            "imgSrc": "./res/img/watergirl_sprite.png",
+            "element": "water",
+            "keys": {
+                "up": "w",
+                "left": "a",
+                "right": "d"
+            },
+            "legsImgSrc": "./res/img/watergirl_legs_sprite.png"
+        },
+        "1": {
+            "position": {
+                "x": 36,
+                "y": 766
+            }
+        },
+        "2": {
+            "position": {
+                "x": 100,
+                "y": 912
+            }
+        }
+    }
+}
