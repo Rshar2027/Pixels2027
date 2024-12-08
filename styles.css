@@ -166,7 +166,7 @@
 		.tools {
 			
 			
-			width:45px;
+			width:50px;
 			
 		}
 		
@@ -361,7 +361,7 @@ ul li a {
   width: 200px;
   height: 200px;
   margin: auto;
-  background: url("ArcadeRetro.png") no-repeat  rgba(0, 0, 0, 0.1);
+  background: url("Black Logo/ArcadeRetro.png") no-repeat  rgba(0, 0, 0, 0.1);
   color: #ffffff;
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.5);
 	
@@ -371,47 +371,47 @@ ul li a {
 /*Images CSS*/
 		 
 		 .rr1 {
-  background: url("ArcadeRetro.png") no-repeat center center;
+  background: url("Black Logo/ArcadeRetro.png") no-repeat center center;
   background-size: cover;
 }
 
 .rr2 {
-  background: url("Strategy.png") no-repeat center center;
+  background: url("Black Logo/Strategy.png") no-repeat center center;
   background-size: cover;
 }
 
 .rr3 {
-  background: url("Sports&Racing.png") no-repeat center center;
+  background: url("Black Logo/Sports&Racing.png") no-repeat center center;
   background-size: cover;
 }
 
 .rr4 {
-  background: url("MultiplayerIO.png") no-repeat center center;
+  background: url("Black Logo/MultiplayerIO.png") no-repeat center center;
   background-size: cover;
 }
 
 .rr5 {
-  background: url("Sports&Racing.png") no-repeat center center;
+  background: url("Black Logo/Sports&Racing.png") no-repeat center center;
   background-size: cover;
 }
 
 .rr6 {
-  background: url("Puzzle.png") no-repeat center center;
+  background: url("Black Logo/Puzzle.png") no-repeat center center;
   background-size: cover;
 }
 
 .rr7 {
-  background: url("Educational.png") no-repeat center center;
+  background: url("Black Logo/Educational.png") no-repeat center center;
   background-size: cover;
 }
 
 .rr8 {
-  background: url("ActionAdventure.png") no-repeat center center;
+  background: url("Black Logo/ActionAdventure.png") no-repeat center center;
   background-size: cover;
 }
 
 .rr9 {
-  background: url("Form.png") no-repeat center center;
+  background: url("Black Logo/Form.png") no-repeat center center;
   background-size: cover;
 }
 		 
