@@ -335,23 +335,24 @@ ul li a {
 	
 }
 		
-		
 	  
 		 .bottom_rectangle {
-			 
 			width:100%;
 			height:150px;
 			background-color:black;
-			 
 			position: absolute;
     		bottom: 0px;
-   			
-					 
-			
-			
-			 
-			 
 		 }
+
+ 		 .bottom_rectangle_sports_racing {
+			width:100%;
+			height:150px;
+			background-color:black;
+			position: absolute;
+    		/*bottom: 0px;*/
+		 }
+
+
 	  
 	  
 	  
@@ -478,9 +479,11 @@ body {
 body {
   position: relative;
   background-color: #011A34;
-	height:1200px;
+  height:1200px;
  
 }
+
+
 
 *,
 *::before,
@@ -621,7 +624,134 @@ body {
 	
 	
 }
+
+.ai_spacer {
+	
+	padding-top:155px;
+	
+	
+}
 	  
-	  
+
+ .iframe-container {
+            text-align: center; /* Center inline elements */
+	 		padding-top:50px;
+        }
+
+.ai-container {
+            text-align: center; /* Center inline elements */
+	 		padding-top:150px;
+			z-index: 1; /* Ensure the chatbox is on top */
+	
+	
+	        ;
+        }
+
+.ai-octagonal {
+            margin-right:auto;
+			margin-left:auto;
+			display:block;/* Center inline elements */
+	 		margin-top:-750px;
+			width:1000px;
+	z-index: 0; /* Ensure the chatbox is on top */
+        }
+
+.ai-textbar {
+            text-align: center; /* Center inline elements */
+	 		padding-top:50px;
+        }
+
+
+/*GrasAI CSS Code Start*/
+
+ #chatbox {
+	  margin-right:auto;
+      margin-left:auto;
+      width: 95%;
+      max-width: 500;
+      height: 550px;
+      border: 10px solid #000000;
+      border-radius: 5px;
+      overflow-y: scroll;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.4);
+	  z-index: 1; /* Ensure the chatbox is on top */
+	 
+    }
+
+    .message {
+      margin: 10px 0;
+      padding: 8px 12px;
+      border-radius: 10px;
+      max-width: 70%;
+      opacity: 0; /* Start invisible */
+      animation: fadeIn 0.5s ease forwards;
+    }
+
+    .user {
+      background-color: #403F41;
+	  color:white;
+      text-align: right;
+      margin-left: auto; /* Push to the right */
+    }
+
+    .bot {
+      background-color: #292929;
+	  color:white;
+      text-align: left;
+      margin-right: auto; /* Push to the left */
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    .typing-effect {
+      display: inline-block;
+      white-space: pre-wrap;
+      overflow: hidden;
+      animation: typing 0.02s steps(20) forwards;
+    }
+
+    #userInput {
+      width: calc(90% - 80px);
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 8px;
+      border: 3px solid black;
+    }
+
+    .send_button_AI {
+      width: 85px;
+      padding: 10px;
+      margin-left: 5px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+/*End of CSS GrasAI*/
+
+
+.wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 100%; /* Full viewport height */
+    }
+
+    /* Main content area */
+    .content {
+        flex: 1; /* Expands to fill available space */
+        background-color: white;
+        padding: 20px;
+        overflow-y: auto; /* Allows scrolling inside content if it overflows */
+    }
 
 
