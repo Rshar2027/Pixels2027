@@ -41,6 +41,106 @@
 	
 	
 	
+	
+	
+	
+	<div class="ai-container">
+	
+	<div id="chatbox"></div>
+  <div class="ai-textbar">
+    <input type="text" id="userInput" placeholder="Ask GrasAI..." />
+    <button class="send_button_AI" onclick="sendMessage()">Send</button>
+  </div>
+
+        <script>
+            const chatbox = document.getElementById("chatbox");
+
+            // Function to add messages to the chatbox
+            function addMessage(content, sender) {
+                const messageDiv = document.createElement("div");
+                messageDiv.className = `message ${sender}`;
+
+                if (sender === "bot") {
+                    // Typing Effect for Bot's Message
+                    let i = 0;
+                    const typingSpan = document.createElement("span");
+                    typingSpan.className = "typing-effect";
+                    messageDiv.appendChild(typingSpan);
+                    chatbox.appendChild(messageDiv);
+                    chatbox.scrollTop = chatbox.scrollHeight;
+
+                    const typingInterval = setInterval(() => {
+                        typingSpan.textContent += content[i];
+                        i++;
+                        if (i === content.length) {
+                            clearInterval(typingInterval);
+                        }
+                        chatbox.scrollTop = chatbox.scrollHeight;
+                    }, 15); // Adjust speed (lower = faster)
+                } else {
+                    // User Message
+                    messageDiv.textContent = content;
+                    chatbox.appendChild(messageDiv);
+                    chatbox.scrollTop = chatbox.scrollHeight;
+                }
+            }
+
+            // Function to handle sending messages
+            async function sendMessage() {
+                const userInput = document.getElementById("userInput");
+                const userMessage = userInput.value.trim();
+                if (!userMessage) return;
+
+                addMessage(userMessage, "user");
+                userInput.value = "";
+
+                addMessage("GrasAI is typing...", "bot");
+
+                try {
+                    // Make a POST request to the proxy serverless function
+                    const response = await fetch('/api/proxy', {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json",
+                        },
+                        body: JSON.stringify({
+                            model: "gpt-4", // Use the GPT model
+                            messages: [{ role: "user", content: userMessage }],
+                            temperature: 0.7,
+                        }),
+                    });
+
+                    const data = await response.json();
+
+                    if (data.choices && data.choices.length > 0) {
+                        const botMessage = data.choices[0].message.content;
+                        addMessage(botMessage, "bot");
+                    } else {
+                        addMessage("Sorry, something went wrong. Please try again.", "bot");
+                    }
+                } catch (error) {
+                    console.error("Error:", error);
+                    addMessage("Error connecting to GrasAI. Please try again later.", "bot");
+                }
+            }
+
+            // Attach sendMessage function to the send button
+            document.querySelector(".send_button_AI").addEventListener("click", sendMessage);
+
+            // Optional: Allow sending messages with Enter key
+            document.getElementById("userInput").addEventListener("keypress", function (e) {
+                if (e.key === "Enter") {
+                    sendMessage();
+                }
+            });
+        </script>
+		
+		
+	</div>
+	
+	
+	<!--<img class ="ai-octagonal" src="octagonal4.png">-->
+	
 
 		
 
@@ -49,7 +149,10 @@
 <!--	<img src="idk.png"> -->
 	
 	
-	<div class="bottom_rectangle"></div>
+	
+      
+    
+    <div class="bottom_rectangle"></div>
 	
 	
 	
