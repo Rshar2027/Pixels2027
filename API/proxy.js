@@ -2,11 +2,18 @@ export default async function handler(req, res) {
     const apiKey = process.env.GrasAI;
 
     if (!apiKey) {
+        console.error("API key is missing.");
         return res.status(500).json({ error: "API key is not configured." });
     }
 
     if (req.method !== "POST") {
-        return res.status(405).json({ error: "Method not allowed" });
+        return res.status(405).json({ error: "Method not allowed. Use POST." });
+    }
+
+    const { model = "gpt-4", messages, temperature = 0.7 } = req.body;
+
+    if (!messages || !Array.isArray(messages)) {
+        return res.status(400).json({ error: "Invalid 'messages' format. It must be an array." });
     }
 
     const endpoint = "https://api.openai.com/v1/chat/completions";
@@ -18,7 +25,11 @@ export default async function handler(req, res) {
                 "Content-Type": "application/json",
                 Authorization: `Bearer ${apiKey}`,
             },
-            body: JSON.stringify(req.body),
+            body: JSON.stringify({
+                model,
+                messages,
+                temperature,
+            }),
         });
 
         if (!response.ok) {
