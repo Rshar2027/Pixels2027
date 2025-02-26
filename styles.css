@@ -233,8 +233,19 @@ html, body {
 body {
   background: #4f583d;
   font-family: "Source Sans Pro", sans-serif;
+    /*This sets the page to 125% always*/
+
     transform: scale(1.25);
     transform-origin: 0 0;
+    document.body.style.margin = "0";
+
+    height: 100%;
+    margin: 0; /* Remove any default margin */
+    overflow: hidden; /* Prevent extra scrolling */
+    transform: scale(1.25);
+    transform-origin: top left;
+
+    /*End Of Resizing Code*/
 }
 
 .buttons-container {
@@ -483,20 +494,7 @@ body {
 		
 		  
 	  }	  
-	  
-	  /*This sets the page to 125% always*/
-	  
-	  transform: scale(1.25);
-      transform-origin: 0 0;
-	  document.body.style.margin = "0";
-	  
-	  height: 100%;
-      margin: 0; /* Remove any default margin */
- 	  overflow: hidden; /* Prevent extra scrolling */
- 	  transform: scale(1.25);
- 	  transform-origin: top left;
-	  
-	  /*End Of Resizing Code*/
+
 	  
 	  
 
