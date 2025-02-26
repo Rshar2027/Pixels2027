@@ -9,15 +9,9 @@
       transform: scale(1.25); /* Scale content */
       transform-origin: top left; /* Keep content aligned with top-left corner */
     }
-	
-	
-	
-	
-	
-	
-	
+
 	/* ---------------------------------------------------------------------------------------- */
-	
+
 
 	
  
@@ -226,8 +220,7 @@
 html, body {
   width: 100%;
   height: 100%;
-    transform: scale(1.25);
-    transform-origin: 0 0;
+
 }
 
 body {
