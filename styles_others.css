@@ -12,282 +12,270 @@
 
 	/* ---------------------------------------------------------------------------------------- */
 
-	  .title {
-			text-align:center;
-			font-size:100px;
-			font-family: "verdana";
-			font-weight:bold;
-			text-decoration: underline;
-			padding-top:200px;
-		}
-		
-		.background {
-            /*background: linear-gradient(#133337, gray);*/
-            background-repeat: no-repeat;
-            background-size: cover;
-            
-			/*Bacground Height*/
-		}
+.title {
+    text-align:center;
+    font-size:100px;
+    font-family: "verdana";
+    font-weight:bold;
+    text-decoration: underline;
+    padding-top:200px;
+}
 
-		hr {
-			border: 3px dashed black;
-		}
-	
-		.random {
-			padding-top:10em;
-		}
-		
-		.fun {
-			display: block;
-  			margin-left: auto;
-  			margin-right: auto;
-			width:600px;
-			margin-bottom:-50px;
-		}
-		
-		.wordle {
-			width: 240px;
-  			height: 240px;
-   			margin: 20px;
-			margin-left:50px;
-			margin-right:50px;
-		}
-		
-		.top_row {
-			width:20px;
-			/*Replace this code after removing Nidhin Ad*/
-		}
-		
-		.clear {
-			clear:both;
-		}
-		
-		.bottom_row {
-			padding-top:60px;
-			text-align:center;
-		}
-		
-		h1 {
-			text-align:center;
-		}
-		
-		h4 {
-			text-align:center;
-		}
-		
-		.simple {
-			display:block;
-			margin-left:auto;
-			margin-right:auto;
-			height:300px;
-			width:1150px;
-		}
+.background {
+    /*background: linear-gradient(#133337, gray);*/
+    background-repeat: no-repeat;
+    background-size: cover;
 
-		.movie {
-			width:50px;
-		}
-		
-		.game {
-			width:80px;
-		}
-		
-		.tools {
-			width:45px;
-		}
-		
-		.ronit {
-			height:40px;
-			width:200px;
-			background-color:aqua;
-		}
-		
-		.nidhin {}
+    /*Bacground Height*/
+}
 
-		.nidhin_img {
-			padding-top:150px;
-			width:942px;
-			height:400px;
-			margin-left:auto;
-			margin-right:auto;
-			display:block;
-		}
-		
-		.nidhin_text {
-			text-align:center;
-		}
-	  
-	  .ss {
-		  width:20px;
-		  height:230px;
-		  background-color:red;
-	  }
+hr {
+    border: 3px dashed black;
+}
+
+.random {
+    padding-top:10em;
+}
+
+.fun {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:600px;
+    margin-bottom:-50px;
+}
+
+.wordle {
+    width: 240px;
+    height: 240px;
+    margin: 20px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.top_row {
+    width:20px;
+    /*Replace this code after removing Nidhin Ad*/
+}
+
+.clear {
+    clear:both;
+}
+
+.bottom_row {
+    padding-top:60px;
+    text-align:center;
+}
+
+h1 {
+    text-align:center;
+}
+
+h4 {
+    text-align:center;
+}
+
+.simple {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height:300px;
+    width:1150px;
+}
+
+.movie {
+    width:50px;
+}
+
+.game {
+    width:80px;
+}
+
+.tools {
+    width:45px;
+}
+
+.ronit {
+    height:40px;
+    width:200px;
+    background-color:aqua;
+}
+
+.nidhin {}
+
+.nidhin_img {
+    padding-top:150px;
+    width:942px;
+    height:400px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.nidhin_text {
+    text-align:center;
+}
+
+.ss {
+    width:20px;
+    height:230px;
+    background-color:red;
+}
 
 /* ---------------------------------------------------------------------------------------- */
-		@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
-        * {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-        }
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        html, body {
-          width: 100%;
-          height: 100%;
-        }
+html, body {
+    width: 100%;
+    height: 100%;
+}
 
-        body {
-          background: #4f583d;
-          font-family: "Source Sans Pro", sans-serif;
+body {
+    background: #4f583d;
+    font-family: "Source Sans Pro", sans-serif;
 
-            /*transform: scale(1.25);*/
-            /*transform-origin: 0 0;*/
-            /*This sets the page to 125% always*/
+    /*transform: scale(1.25);*/
+    /*transform-origin: 0 0;*/
+    /*This sets the page to 125% always*/
 
-            /*transform: scale(1.25);*/
-            /*transform-origin: 0 0;*/
-            /*document.body.style.margin = "0";*/
+    /*transform: scale(1.25);*/
+    /*transform-origin: 0 0;*/
+    /*document.body.style.margin = "0";*/
 
-            /*height: 100%;*/
-            /*margin: 0; !* Remove any default margin *!*/
-            /*overflow: hidden; !* Prevent extra scrolling *!*/
-            /*transform: scale(1.25);*/
-            /*!*transform-origin: top left;*!*/
+    /*height: 100%;*/
+    /*margin: 0; !* Remove any default margin *!*/
+    /*overflow: hidden; !* Prevent extra scrolling *!*/
+    /*transform: scale(1.25);*/
+    /*!*transform-origin: top left;*!*/
 
-            /*End Of Resizing Code*/
-        }
+    /*End Of Resizing Code*/
+}
 
-        .buttons-container {
-          position: absolute;
-          margin: auto;
-          top: 0;
-          right: 0;
-          bottom: 400;
-          left: 0;
-          width: 395px;
-          height: 100px;
-          border-radius: 45px;
-          background: #151515;
-          box-shadow: inset 0 0 2px 2px rgba(0, 0, 0, 0.5);
-        }
+.buttons-container {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 400;
+    left: 0;
+    width: 395px;
+    height: 100px;
+    border-radius: 45px;
+    background: #151515;
+    box-shadow: inset 0 0 2px 2px rgba(0, 0, 0, 0.5);
+}
 
-        ul {
-          list-style: none;
-          width: inherit;
-          height: inherit;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
+ul {
+    list-style: none;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-        ul li {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          margin: 1px;
-          height: 90px;
-          width: 95px;
-          background: #202020;
-          border-top: 1px solid #353535;
-          box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.5);
-          transition: all 0.5s;
-        }
+ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+    height: 90px;
+    width: 95px;
+    background: #202020;
+    border-top: 1px solid #353535;
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+}
 
-        ul li:nth-of-type(1) {
-          border-top-left-radius: 40px;
-          border-bottom-left-radius: 40px;
-        }
+ul li:nth-of-type(1) {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
 
-        ul li:last-of-type {
-          border-top-right-radius: 40px;
-          border-bottom-right-radius: 40px;
-        }
+ul li:last-of-type {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
 
-        ul li:hover {
-          cursor: pointer;
-        }
+ul li:hover {
+    cursor: pointer;
+}
 
-        ul li a {
-          display: inline-block;
-          color: gray;
-          text-decoration: none;
-          font-size: 40px;
-          transition: all 0.5s;
-        }
+ul li a {
+    display: inline-block;
+    color: gray;
+    text-decoration: none;
+    font-size: 40px;
+    transition: all 0.5s;
+}
 
-        .created-by {
-          position: absolute;
-          margin: auto;
-          left: 0;
-          right: 0;
-          bottom: 10%;
-          width: 200px;
-          text-align: center;
-          font-size: 10px;
-          letter-spacing: 0.5em;
-          text-transform: uppercase;
-        }
+.created-by {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    width: 200px;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
 
-        .created-by p {
-          color: white;
-        }
+.created-by p {
+    color: white;
+}
 
-        .created-by a {
-          color: crimson;
-          text-shadow: 0 0 15px rgba(244, 0, 0, 0.71);
-          text-decoration: none;
-          font-weight: 700;
-        }
+.created-by a {
+    color: crimson;
+    text-shadow: 0 0 15px rgba(244, 0, 0, 0.71);
+    text-decoration: none;
+    font-weight: 700;
+}
 
-        .created-by a:hover {
-          text-decoration: underline;
-        }
+.created-by a:hover {
+    text-decoration: underline;
+}
 
-        .active {
-          background: #151515;
-          border-top: none;
-          border-bottom: 1px solid #252525;
-          box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, 0.8);
-        }
+.active {
+    background: #151515;
+    border-top: none;
+    border-bottom: 1px solid #252525;
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, 0.8);
+}
 
-        .active-text {
-          color: crimson;
-          text-shadow: 0 0 15px rgba(220, 10, 10, 0.5);
-        }
+.active-text {
+    color: crimson;
+    text-shadow: 0 0 15px rgba(220, 10, 10, 0.5);
+}
 
-        .placeholder{
-          height:500px;
-        }
+.placeholder{
+    height:500px;
+}
 
-        .bottom_rectangle {
-            width:100%;
-            height:150px;
-            background-color:black;
-            position: absolute;
-            /*bottom: 0px;*/
-        }
+.bottom_rectangle {
+    width:100%;
+    height:150px;
+    background-color:black;
+    position: absolute;
+    /*bottom: 0px;*/
+}
 
-        .bottom_rectangle_sports_racing {
-            width:100%;
-            height:150px;
-            background-color:black;
-            position: absolute;
-            /*bottom: 0px;*/
-        }
+.bottom_rectangle_sports_racing {
+    width:100%;
+    height:150px;
+    background-color:black;
+    position: absolute;
+    /*bottom: 0px;*/
+}
 
-
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
 /* ---------------------------------------------------------------------------------------- */
-	  
-  .rr::before, .rr::after, .rr {
+.rr::before, .rr::after, .rr {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -302,13 +290,11 @@
   background: url("Black Logo/ArcadeRetro.png") no-repeat  rgba(0, 0, 0, 0.1);
   color: #ffffff;
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.5);
-	
-			
 }
 		 
 /*Images CSS*/
 		 
-		 .rr1 {
+.rr1 {
   background: url("Black Logo/ArcadeRetro.png") no-repeat center center;
   background-size: cover;
 }
@@ -352,32 +338,23 @@
   background: url("Black Logo/Form.png") no-repeat center center;
   background-size: cover;
 }
-		 
-		 
+
 /*End Of Image CSS*/
-		 
-		 
-		 
-		 
-		 
+
 .rr::before, .rr::after {
   content: "";
   z-index: -1;
   margin: -5%;
 
-	
   box-shadow: inset 0 0 0 3px;
   animation: clipMe 10s linear infinite;
 }
+
 .rr::before {
   animation-delay: -5s;
 }
-.rr:hover::after, .rr:hover::before {
-	
-	
-	
-  
-}
+
+.rr:hover::after, .rr:hover::before {}
 
 @keyframes clipMe {
   0%, 100% {
@@ -394,34 +371,20 @@
   }
 }
 html,
-body {
-  
-}
+body {}
 
 body {
   position: relative;
   background-color: #011A34;
   height:1200px;
- 
 }
-
-
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-	  
-	  
-	  .oo {
-		  
-		
-		  
-	  }	  
-	  
-
-
+.oo {}
 
 /* Search Bars*/
 
@@ -429,11 +392,6 @@ body {
   position: relative;
   box-sizing: border-box;
   width: fit-content;
-  
-  
-	
-	
-  
 }
 
 .mainbox {
@@ -517,41 +475,29 @@ body {
 }
 
 .bar_container{
-	
 	margin-left:950px;
 	padding-top:30px;
-	
-	
 }
-
 
 /*End Of Search Bar*/
 
-
 .spacer_game_catagories {
-	
 	padding-top:95px;
-	
-	
 }
 
 .ai_spacer {
-	
 	padding-top:155px;
-	
-	
 }
-	  
 
  .iframe-container {
-            text-align: center; /* Center inline elements */
-	 		padding-top:50px;
-        }
+     text-align: center; /* Center inline elements */
+     padding-top:50px;
+ }
 
 .ai-container {
-            text-align: center; /* Center inline elements */
-	 		padding-top:150px;
-			z-index: 1; /* Ensure the chatbox is on top */
+    text-align: center; /* Center inline elements */
+    padding-top:150px;
+    z-index: 1; /* Ensure the chatbox is on top */
 	
 	
 	        ;
