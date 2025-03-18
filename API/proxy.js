@@ -1,4 +1,5 @@
 export default async function handler(req, res) {
+    require('dotenv').config();
     const apiKey = process.env.GrasAI;
 
     if (!apiKey) {
@@ -10,7 +11,7 @@ export default async function handler(req, res) {
         return res.status(405).json({ error: "Method not allowed. Use POST." });
     }
 
-    const { model = "gpt-4", messages, temperature = 0.7 } = req.body;
+    const { model = "gpt-4o", messages, temperature = 0.7 } = req.body;
 
     if (!messages || !Array.isArray(messages)) {
         return res.status(400).json({ error: "Invalid 'messages' format. It must be an array." });
