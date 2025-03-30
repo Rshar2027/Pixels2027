@@ -395,7 +395,7 @@ body {}
 
 body {
   position: relative;
-  background-color: #011A34;
+  /*background-color: #011A34;*/
   height:1200px;
 }
 
@@ -535,6 +535,7 @@ body {
 .ai-textbar {
             text-align: center; /* Center inline elements */
 	 		padding-top:50px;
+            /*padding-bottom:50px;*/
         }
 
 
@@ -544,13 +545,14 @@ body {
 	  margin-right:auto;
       margin-left:auto;
       width: 95%;
-      max-width: 500;
+      max-width: 2700px;
       height: 550px;
       border: 10px solid #000000;
       border-radius: 5px;
       overflow-y: scroll;
-      padding: 10px;
-      background-color: rgba(1, 26, 52, 0.4);
+      padding: 0px;
+      /*background-color: rgb(2,16,31);*/
+     background-color: #18191A;
 	  z-index: 1; /* Ensure the chatbox is on top */
 	 
     }
@@ -600,6 +602,7 @@ body {
       margin-top: 10px;
       border-radius: 8px;
       border: 3px solid black;
+
     }
 
     .send_button_AI {
